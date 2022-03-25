@@ -69,5 +69,11 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "resolutions": {
+    "@asyncapi/generator": "./wtf"
+  },
+  "config": {
+    "puppeteer_skip_chromium_download": true
   }
 }
