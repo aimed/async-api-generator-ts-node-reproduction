@@ -20,7 +20,10 @@
       "cwd": "${workspaceRoot}",
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std",
-      "skipFiles": ["<node_internals>/**", "node_modules/**", "dist/"]
+      "skipFiles": ["<node_internals>/**", "node_modules/**", "dist/"],
+      "env": {
+        "TS_NODE_TRANSPILE_ONLY": "true"
+      }
     }
   ]
 }
